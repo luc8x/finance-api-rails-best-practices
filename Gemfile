@@ -37,7 +37,7 @@ group :development, :test do
   gem "ffaker", "~> 2.23"
   gem "rubocop", "~> 1.65", require: false
    gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
-  gem "rspec-rails", "~> 6.1.0"
+  gem "rspec-rails", "~> 7.0.1"
   gem "rswag-specs", "~> 2.14"
   gem "rubocop-rails-omakase", require: false
 end
